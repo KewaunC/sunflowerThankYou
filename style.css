@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+body {
+  background-color: Ivory;
+}
+
+.pedal {
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  width: 400px;
+  height: 50px;
+  border-radius: 200px/ 55px ;
+  background-color: gold;
+  border: 2px solid ivory;
+  z-index: -1; 
+
+}
+
+.pedal-1 {
+  transform: rotate(90deg);
+  z-index: -1; 
+
+}
+.pedal-2 {
+  transform: rotate(45deg);
+  z-index: -1; 
+
+}
+.pedal-3 {
+  transform: rotate(-45deg);
+  z-index: -1; 
+
+}
+.pedal-4 {
+  transform: rotate(22.5deg);
+  background: orange;
+  z-index: -1; 
+  opacity: .5;
+
+}
+.pedal-5 {
+  transform: rotate(-22.5deg);
+  background: orange;
+  z-index: -1; 
+  opacity: .5;
+
+  
+}
+.pedal-6 {
+  transform: rotate(112.5deg);
+  background: orange;
+  z-index: -1; 
+  opacity: .5;
+
+}
+.pedal-7 {
+  transform: rotate(-112.5deg);
+  background: orange;
+  z-index: -1; 
+  opacity: .5;
+
+}
+.circle {
+  position: absolute;
+  top: 224px;
+  right: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: sienna;
+  border: 3px solid ivory;
+  z-index: -1; 
+  
+}
+.innercircle {
+  position: absolute;
+  top: 290px;
+  right: 215px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #654321;
+  border: 3px solid #654321;
+  z-index: -1; 
+
+}
+.stem{
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  width:20px;
+  height: 530px;
+    border-radius: 200px;
+  background-color: green;
+  z-index: -2; 
+}
+
+
+.thanks {
+  
+  bottom: 50px;
+  left: 100px;
+  font-family: 'Sriracha', cursive;
+  font-size: 60px;
+  color: orange;
+ 
+}
